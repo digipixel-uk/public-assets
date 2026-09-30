@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 136" role="img" aria-labelledby="lockup-title">
+  <title id="lockup-title">Matt Sidnell, Mortgage and Protection Adviser</title>
+  <style>
+    @font-face {
+      font-family: "Albert Sans Logo";
+      src: url("../albert-sans.woff2") format("woff2");
+      font-display: block;
+    }
+  </style>
+  <!-- The initials are included directly so the complete mark renders reliably when this SVG is used as an image. -->
+  <g id="ms-mark">
+    <text x="5" y="106" fill="#10293c" font-family="Albert Sans Logo, Albert Sans, Arial, sans-serif" font-size="126" font-weight="800" letter-spacing="-9.5">MS</text>
+    <circle cx="213" cy="97" r="9" fill="#e90d8b"/>
+  </g>
+  <path d="M258 24V112" stroke="#e1e7e9" stroke-width="2"/>
+  <text x="292" y="72" fill="#10293c" font-family="Albert Sans Logo, Albert Sans, Arial, sans-serif" font-size="61" font-weight="800" letter-spacing="-2.5">Matt Sidnell</text>
+  <text x="295" y="108" fill="#526b79" font-family="Albert Sans Logo, Albert Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.6">MORTGAGE &amp; PROTECTION ADVISER</text>
+</svg>

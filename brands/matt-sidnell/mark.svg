@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 112" role="img" aria-labelledby="ms-title">
+  <title id="ms-title">MS.</title>
+  <style>
+    @font-face {
+      font-family: "Albert Sans Logo";
+      src: url("../albert-sans.woff2") format("woff2");
+      font-display: block;
+    }
+  </style>
+  <!-- Editable colours: navy #10293c; pink #e90d8b. -->
+  <text x="4" y="87" fill="#10293c" font-family="Albert Sans Logo, Albert Sans, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-8">MS</text>
+  <circle cx="175" cy="80" r="7.5" fill="#e90d8b"/>
+</svg>
