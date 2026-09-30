@@ -6,20 +6,34 @@
   <meta name="robots" content="noindex,nofollow">
   <title>PixlWrk public assets</title>
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;margin:40px;max-width:900px;color:#17212b}
-    h1{font-size:24px;margin-bottom:8px} p{color:#56616d}
-    code{background:#f3f5f7;padding:2px 5px;border-radius:4px}
-    li{margin:9px 0} a{color:#174f78}
+    *{box-sizing:border-box} body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#17212b;background:#f4f6f8}
+    main{max-width:1080px;margin:0 auto;padding:40px 24px 64px} h1{font-size:26px;margin:0 0 8px} h2{margin:34px 0 14px;font-size:19px}
+    p{color:#56616d;line-height:1.5}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+    .card{border:1px solid #dce2e7;border-radius:10px;overflow:hidden;background:#fff}.preview{min-height:210px;display:flex;align-items:center;justify-content:center;padding:30px}
+    .preview.light{background:#fff}.preview.dark{background:#10293c}.preview img{max-width:100%;max-height:150px;object-fit:contain}
+    .meta{padding:14px 16px;border-top:1px solid #e7ebef}.meta strong{display:block;margin-bottom:5px}.meta code{font-size:12px;word-break:break-all;color:#52606d}
+    a{color:#135f89;text-decoration:none}a:hover{text-decoration:underline}
   </style>
 </head>
-<body>
+<body><main>
   <h1>PixlWrk public assets</h1>
-  <p>Stable public brand assets for email signatures and approved integrations.</p>
-  <ul>
-    <li><a href="/email/digipixel-logo.png"><code>/email/digipixel-logo.png</code></a></li>
-    <li><a href="/email/matt-sidnell-lockup.png"><code>/email/matt-sidnell-lockup.png</code></a></li>
-    <li><a href="/email/matt-sidnell-my-simple-mortgage.png"><code>/email/matt-sidnell-my-simple-mortgage.png</code></a></li>
-    <li><a href="/email/my-simple-mortgage-logo.png"><code>/email/my-simple-mortgage-logo.png</code></a></li>
-  </ul>
-</body>
-</html>
+  <p>Stable transparent brand assets for email signatures and approved integrations.</p>
+
+  <h2>DigiPixel full lockup</h2>
+  <div class="grid">
+    <div class="card"><div class="preview light"><img src="/email/digipixel-lockup-light.png" alt="DigiPixel full logo for light backgrounds"></div><div class="meta"><strong>Light background</strong><a href="/email/digipixel-lockup-light.png"><code>/email/digipixel-lockup-light.png</code></a></div></div>
+    <div class="card"><div class="preview dark"><img src="/email/digipixel-lockup-dark.png" alt="DigiPixel full reversed logo for dark backgrounds"></div><div class="meta"><strong>Dark background</strong><a href="/email/digipixel-lockup-dark.png"><code>/email/digipixel-lockup-dark.png</code></a></div></div>
+  </div>
+
+  <h2>Matt Sidnell</h2>
+  <div class="grid">
+    <div class="card"><div class="preview light"><img src="/email/matt-sidnell-lockup-light.png" alt="Matt Sidnell logo for light backgrounds"></div><div class="meta"><strong>Light background</strong><a href="/email/matt-sidnell-lockup-light.png"><code>/email/matt-sidnell-lockup-light.png</code></a></div></div>
+    <div class="card"><div class="preview dark"><img src="/email/matt-sidnell-lockup-dark.png" alt="Matt Sidnell reversed logo for dark backgrounds"></div><div class="meta"><strong>Dark background</strong><a href="/email/matt-sidnell-lockup-dark.png"><code>/email/matt-sidnell-lockup-dark.png</code></a></div></div>
+  </div>
+
+  <h2>Matt Sidnell + My Simple Mortgage</h2>
+  <div class="grid">
+    <div class="card"><div class="preview light"><img src="/email/matt-sidnell-my-simple-mortgage-light.png" alt="Matt Sidnell and My Simple Mortgage co-brand for light backgrounds"></div><div class="meta"><strong>Light background</strong><a href="/email/matt-sidnell-my-simple-mortgage-light.png"><code>/email/matt-sidnell-my-simple-mortgage-light.png</code></a></div></div>
+    <div class="card"><div class="preview dark"><img src="/email/matt-sidnell-my-simple-mortgage-dark.png" alt="Matt Sidnell and My Simple Mortgage co-brand for dark backgrounds"></div><div class="meta"><strong>Dark background</strong><a href="/email/matt-sidnell-my-simple-mortgage-dark.png"><code>/email/matt-sidnell-my-simple-mortgage-dark.png</code></a></div></div>
+  </div>
+</main></body></html>
