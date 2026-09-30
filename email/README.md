@@ -1,16 +1,16 @@
 # Email-safe brand assets
 
-These PNGs are deliberately trimmed and sized for email signatures so mail clients do not render oversized source artwork.
+These PNGs are exported at **2× retina resolution** for crisp email rendering. Do **not** render them at their intrinsic pixel width.
 
-Intrinsic widths:
+Rendered widths in email HTML:
 
-- DigiPixel: 250 px
-- PixlWrk: 250 px
-- Professional Structures: 250 px
-- My Simple Mortgage: 250 px
-- Matt Sidnell: 220 px
-- Matt Sidnell + My Simple Mortgage: 250 px
+- DigiPixel: max 250 px (asset 500 px)
+- PixlWrk: max 250 px (asset 500 px)
+- Professional Structures: max 250 px (asset 500 px)
+- My Simple Mortgage: max 250 px (asset 500 px)
+- Matt Sidnell: max 220 px (asset 440 px)
+- Matt Sidnell + My Simple Mortgage: max 250 px (asset 500 px)
 
-Keep `height:auto` in email HTML and do not render above the intrinsic width. Use `*-light.png` on light backgrounds and `*-dark.png` on dark backgrounds.
+Use an explicit `width` plus `height:auto`; use `*-light.png` on light backgrounds and `*-dark.png` on dark backgrounds.
 
 Full-resolution masters remain under `/brands/`.
