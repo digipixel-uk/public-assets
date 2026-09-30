@@ -14,3 +14,8 @@ Rendered widths in email HTML:
 Use an explicit `width` plus `height:auto`; use `*-light.png` on light backgrounds and `*-dark.png` on dark backgrounds.
 
 Full-resolution masters remain under `/brands/`.
+
+
+## Canonical email sizing
+
+All email-specific PNG assets must be **250 px wide or smaller** intrinsically. Email HTML must also explicitly cap display width at 250 px or less and preserve aspect ratio.
